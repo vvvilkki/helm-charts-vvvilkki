@@ -13,7 +13,7 @@ RUN apt-get update && apt-get upgrade -y && apt-get install --no-install-recomme
     libnss-wrapper \
     libnode72 \
     libbz2-dev \
-    libglpk.so.40 \
+    libglpk40 \
     liblzma-dev \
     librsvg2-dev \
     libudunits2-dev \
