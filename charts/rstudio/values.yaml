@@ -37,7 +37,7 @@ shiny:
     host:  # REQUIRED
 
 buildConfig:
-  gitRepoUri: https://github.com/CSCfi/helm-charts.git
+  gitRepoUri: https://github.com/vvvilkki/helm-charts-vvvilkki.git
   gitBranch: main
   contextDir: charts/rstudio/source
   
