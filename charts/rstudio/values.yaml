@@ -21,7 +21,7 @@ rstudio:
   route:
     insecureEdgeTerminationPolicy: Redirect
     termination: edge
-    host:  # REQUIRED
+    host: rstudio.local
   random_pw_secret_key: PASSWORD
   secret:
     USER: rstudio
@@ -34,7 +34,7 @@ shiny:
   route:
     insecureEdgeTerminationPolicy: Redirect
     termination: edge
-    host:  # REQUIRED
+    host: shiny.local
 
 buildConfig:
   gitRepoUri: https://github.com/vvvilkki/helm-charts-vvvilkki.git
